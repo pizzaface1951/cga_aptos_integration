@@ -1,0 +1,22 @@
+.user-dashboard-container, .creator-dashboard-container {
+    background-color: #f8f9fa;
+    padding: 2rem;
+  }
+  
+  .user-dashboard-card, .creator-dashboard-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .alert-info {
+    background-color: #e9ecef;
+    color: #0c5460;
+  }
+  
+  button {
+    font-family: 'Poppins', sans-serif;
+  }
+  

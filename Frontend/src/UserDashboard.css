@@ -1,0 +1,61 @@
+.user-dashboard-container {
+    padding: 2rem; /* Add padding to the container */
+    height: calc(100vh - 56px); /* Adjust for header height if needed */
+    background-color: #f0f2f5; /* Light background color for the dashboard */
+  }
+  
+  .user-dashboard-row {
+    margin: 0 auto; /* Center the row */
+    height: 100%;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .user-dashboard-container {
+      padding-left: 8%;
+      padding-right: 8%;
+    }
+  }
+  
+  .user-dashboard-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    background-color: #ffffff; /* White background for cards */
+    transition: transform 0.2s ease; /* Smooth transition for hover effect */
+  }
+  
+  .user-dashboard-card:hover {
+    transform: scale(1.02); /* Slightly increase size on hover */
+  }
+  
+  .user-dashboard-card .btn-primary,
+  .user-dashboard-card .btn-danger {
+    background-color: #007bff; /* Primary blue color for buttons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease; /* Smooth transition for button hover effect */
+  }
+  
+  .user-dashboard-card .btn-primary:hover,
+  .user-dashboard-card .btn-danger:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .card img {
+    height: 150px; /* Set the image height */
+    object-fit: cover; /* Ensure the image covers the area */
+  }
+  
+  .nft-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for NFT cards */
+    transition: transform 0.2s ease; /* Smooth transition for hover effect */
+  }
+  
+  .nft-card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
